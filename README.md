@@ -15,7 +15,7 @@ Push the results back to the repository.
 
 ## Example usage
 
-package main
+'package main
 
 import (
 	_ "embed"
@@ -40,8 +40,9 @@ router := mux.NewRouter().StrictSlash(true)
 
 apiDocSrvc.apiDoc(spec, *router)
 
-log.Fatal(http.ListenAndServe(":8080", router))
-}
+log.Fatal(http.ListenAndServe(":8080", router))  
+  
+}'  
 
 
 
