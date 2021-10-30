@@ -18,7 +18,7 @@ func byteHandler(b []byte) http.HandlerFunc {
 	}
 }
 
-func addSwaggerRoute(spec []byte, r *mux.Router) {
+func AddSwaggerRoute(spec []byte, r *mux.Router) {
 	// render the index template with the proper spec name inserted
 	swFS, _ := fs.Sub(swagfs, "embed")
 	r.HandleFunc("/swagger_spec", byteHandler(spec))
