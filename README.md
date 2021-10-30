@@ -15,7 +15,8 @@ Push the results back to the repository.
 
 ## Example usage
 
-'package main
+'''
+package main
 
 import (
 	_ "embed"
@@ -42,8 +43,8 @@ apiDocSrvc.apiDoc(spec, *router)
 
 log.Fatal(http.ListenAndServe(":8080", router))  
   
-}'  
-
+}  
+'''
 
 
 
