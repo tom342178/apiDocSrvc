@@ -15,7 +15,7 @@ Push the results back to the repository.
 
 ## Installing
 
-go get "github.com/tom342178/swaggerui"
+`go get "github.com/tom342178/swaggerui"`
 
 ## Example usage
 
