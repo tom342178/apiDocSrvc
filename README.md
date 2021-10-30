@@ -23,7 +23,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/flowchartsman/swaggerui"
+	"github.com/tom342178/swaggerui"
 )
 
 //go:embed app-api-spec.yaml
