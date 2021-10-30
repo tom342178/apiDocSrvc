@@ -3,14 +3,14 @@ Provide embeded doc server
 
 ## Attribution
 
-Forked from https://github.com/flowchartsman/swaggerui
-Modified swaggerui.go to support gorilla mux. 
+Forked from https://github.com/flowchartsman/swaggerui 
+Modified swaggerui.go to support gorilla mux.   
 Moved all handler code from main to the module.
 
 ## Updated the embedded swaggerui code
 
-Clone the code and go run generate.go
-This will update the embed directory with the latest swaggerui code
+Clone the code and go run generate.go 
+This will update the embed directory with the latest swaggerui code. 
 Push the results back to the repository.
 
 ## Example usage
