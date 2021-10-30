@@ -15,7 +15,7 @@ Push the results back to the repository.
 
 ## Example usage
 
-'''
+```
 package main
 
 import (
@@ -44,7 +44,7 @@ apiDocSrvc.apiDoc(spec, *router)
 log.Fatal(http.ListenAndServe(":8080", router))  
   
 }  
-'''
+```
 
 
 
