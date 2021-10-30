@@ -13,6 +13,10 @@ Clone the code and go run generate.go
 This will update the embed directory with the latest swaggerui code.  
 Push the results back to the repository.  
 
+## Installing
+
+go get "github.com/tom342178/swaggerui"
+
 ## Example usage
 
 ```
